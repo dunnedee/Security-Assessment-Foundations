@@ -1,0 +1,32 @@
+:root {
+  --md-primary-fg-color: #3b4a9c;
+  --md-primary-fg-color--light: #5566c4;
+  --md-primary-fg-color--dark: #2a3670;
+  --md-accent-fg-color: #4f5fd1;
+}
+
+/* Callout for the repeated "in an assessment" framing boxes */
+.md-typeset .admonition.assessor,
+.md-typeset details.assessor {
+  border-color: #3b4a9c;
+}
+.md-typeset .assessor > .admonition-title,
+.md-typeset .assessor > summary {
+  background-color: rgba(59, 74, 156, 0.1);
+}
+.md-typeset .assessor > .admonition-title::before,
+.md-typeset .assessor > summary::before {
+  background-color: #3b4a9c;
+  -webkit-mask-image: var(--md-admonition-icon--note);
+          mask-image: var(--md-admonition-icon--note);
+}
+
+/* Slightly roomier tables */
+.md-typeset table:not([class]) th {
+  background-color: var(--md-primary-fg-color);
+  color: #fff;
+}
+
+.md-typeset h2 {
+  margin-top: 1.6em;
+}

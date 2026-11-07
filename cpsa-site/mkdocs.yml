@@ -1,0 +1,144 @@
+site_name: Foundations of Security Assessment
+site_description: >-
+  An open, syllabus-aligned learning resource for people getting into
+  penetration testing and security assessment. Mapped to the CREST CPSA
+  syllabus, written as defensive reference material — not exam recall.
+site_author: Michael Dunne
+# TODO: set these to your real GitHub Pages URL and repo before first deploy
+site_url: https://CHANGE-ME.github.io/foundations-security-assessment/
+repo_url: https://github.com/CHANGE-ME/foundations-security-assessment
+repo_name: foundations-security-assessment
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  icon:
+    logo: material/shield-lock-outline
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/CHANGE-ME
+      name: LinkedIn
+  generator: false
+
+copyright: >-
+  Licensed under
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
+  CPSA and CREST are trademarks of their respective owners; this is an
+  independent study resource and is not affiliated with or endorsed by CREST.
+
+nav:
+  - Home: index.md
+  - Start here:
+      - getting-started/index.md
+      - Who this is for: getting-started/who-this-is-for.md
+      - How to use this resource: getting-started/how-to-use.md
+      - Building a home lab: getting-started/home-lab.md
+      - About & scope: getting-started/about.md
+  - Assessment management:
+      - assessment-management/index.md
+      - The engagement lifecycle: assessment-management/engagement-lifecycle.md
+      - Penetration testing methodology: assessment-management/pentest-methodology.md
+      - Legal & compliance (UK): assessment-management/legal-compliance.md
+      - Scoping & rules of engagement: assessment-management/scoping.md
+      - Risk management: assessment-management/risk-management.md
+      - Reporting & documentation: assessment-management/reporting.md
+  - Core technical skills:
+      - core-technical/index.md
+      - Network protocols: core-technical/network-protocols.md
+      - Cryptography fundamentals: core-technical/cryptography.md
+      - Hashing & password storage: core-technical/hashing.md
+  - Information gathering:
+      - information-gathering/index.md
+      - OSINT & reconnaissance: information-gathering/osint.md
+      - DNS enumeration: information-gathering/dns-enumeration.md
+      - Web reconnaissance: information-gathering/web-recon.md
+      - Metadata & exposed data: information-gathering/metadata.md
+  - Networking & infrastructure:
+      - networking-infrastructure/index.md
+      - Network mapping & discovery: networking-infrastructure/network-mapping.md
+      - Service enumeration: networking-infrastructure/service-enumeration.md
+      - Fingerprinting & service identification: networking-infrastructure/fingerprinting.md
+      - Routing & network architecture: networking-infrastructure/network-routing.md
+      - Wi-Fi & wireless security: networking-infrastructure/wifi-security.md
+      - VoIP & SIP security: networking-infrastructure/voip-security.md
+  - Host & platform security:
+      - host-platform/index.md
+      - Active Directory: host-platform/active-directory.md
+      - File system security: host-platform/file-system-security.md
+      - Device configuration review: host-platform/configuration-analysis.md
+  - Vulnerability assessment:
+      - vulnerability-assessment/index.md
+      - Assessment vs penetration testing: vulnerability-assessment/assessment-vs-pentest.md
+      - Scanning & validation: vulnerability-assessment/scanning.md
+  - Web & databases:
+      - web-and-databases/index.md
+      - Common web vulnerabilities: web-and-databases/web-vulnerabilities.md
+      - Database security: web-and-databases/databases.md
+  - Exploitation concepts:
+      - exploitation-concepts/index.md
+      - How exploitation fits an assessment: exploitation-concepts/overview.md
+      - Privilege escalation (concepts): exploitation-concepts/privilege-escalation.md
+      - Post-exploitation & lateral movement: exploitation-concepts/post-exploitation.md
+  - Reference:
+      - reference/index.md
+      - Protocols & acronyms: reference/protocols-acronyms.md
+      - Common ports: reference/common-ports.md
