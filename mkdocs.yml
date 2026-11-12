@@ -1,12 +1,11 @@
-site_name: Foundations of Security Assessments
+site_name: Security Assessment Foundations
 site_description: >-
   An open, syllabus-aligned learning resource for people getting into
   penetration testing and security assessment. Mapped to the CREST CPSA
   syllabus, written as defensive reference material, not exam recall.
 site_author: Mick Dunne
-# TODO: set these to your real GitHub Pages URL and repo before first deploy
-site_url: https://dunnedee.github.io/foundations-security-assessment/
-repo_url: https://github.com/dunnedee/foundations-security-assessment
+site_url: https://dunnedee.github.io/Security-Assessment-Foundations/
+repo_url: https://github.com/dunnedee/Security-Assessment-Foundations
 repo_name: Security-Assessment-Foundations
 edit_uri: edit/main/docs/
 
@@ -73,10 +72,6 @@ plugins:
   - search
 
 extra:
-  social:
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/CHANGE-ME
-      name: LinkedIn
   generator: false
 
 copyright: >-
@@ -96,6 +91,7 @@ nav:
   - Assessment management:
       - assessment-management/index.md
       - The engagement lifecycle: assessment-management/engagement-lifecycle.md
+      - Penetration testing methodology: assessment-management/pentest-methodology.md
       - Legal & compliance (UK): assessment-management/legal-compliance.md
       - Scoping & rules of engagement: assessment-management/scoping.md
       - Risk management: assessment-management/risk-management.md
