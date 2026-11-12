@@ -2,7 +2,7 @@
 
 An open, free learning resource for people getting into penetration testing and
 security assessment. The content is organised around the CREST CPSA syllabus and
-written as defensive reference material — what each concept is, why it matters,
+written as defensive reference material, what each concept is, why it matters,
 how an assessor identifies the related weakness, and how it's remediated.
 
 **Live site:** https://dunnedee.github.io/Security-Assessment-Foundations/
