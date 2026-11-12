@@ -1,8 +1,8 @@
 ---
-title: Foundations of Security Assessment
+title: Security Assessment Foundations
 ---
 
-# Foundations of Security Assessment
+# Security Assessment Foundations
 
 A free, open learning resource for people getting into **penetration testing
 and security assessment**. The material is organised around the
