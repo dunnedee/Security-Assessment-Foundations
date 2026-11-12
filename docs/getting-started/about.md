@@ -1,4 +1,4 @@
-# About & scope
+# About & Scope
 
 ## What this resource is
 
