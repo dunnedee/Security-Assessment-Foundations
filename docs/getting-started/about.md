@@ -50,9 +50,15 @@ system may be a criminal offence. See
 
 ## About the author
 
-Maintained by **Michael Dunne**, a senior penetration tester working in the UK
-and Ireland. The material grew out of personal study notes, cleaned up and
-reframed so that others coming into the industry can use them.
+Maintained by **Mick Dunne**, a senior penetration tester and offensive security professional with over 15 years of experience in cybersecurity.
+
+My background started in the British Army's Royal Signals, where I spent 12 years working in Electronic Warfare, Communications and Cyber Operations. Since leaving the military, I've built my career in offensive security, delivering penetration testing and security assessments across a broad range of technologies and environments. My experience spans traditional infrastructure, web applications, APIs, Active Directory, cloud, mobile applications and operational technology (OT), alongside more specialised and bespoke security assessments.
+
+Along the way, I've gained several industry-recognised certifications, including Cyber Scheme Team Leader (CSTL), Offensive Security Certified Professional (OSCP), Offensive Security Web Assessor (OSWA), Certified Red Team Professional (CRTP) and CREST Registered Tester (CRT). I also previously held the Qualified Security Team Member (QSTM) certification before it was discontinued.
+
+Today, I lead penetration testing teams across the UK and Ireland, but I still enjoy getting hands-on with the technical side of security.
+
+I created this site to share some of the knowledge, tools and techniques I've picked up along the way. Whether you're just starting out, studying for certifications or looking to sharpen your skills, the aim is to provide practical, straightforward learning material based on real-world experience.
 
 !!! note "A note on the trade"
     These notes reflect general, publicly available knowledge and the author's
