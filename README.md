@@ -5,12 +5,10 @@ security assessment. The content is organised around the CREST CPSA syllabus and
 written as defensive reference material, what each concept is, why it matters,
 how an assessor identifies the related weakness, and how it's remediated.
 
-**Live site:** https://dunnedee.github.io/Security-Assessment-Foundations/
+**check out the Live site:** https://dunnedee.github.io/Security-Assessment-Foundations/
 
-Built with [MkDocs](https://www.mkdocs.org/) and
-[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
-## Run it locally
+## Or Run it locally
 
 ```bash
 pip install -r requirements.txt
