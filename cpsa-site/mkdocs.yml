@@ -5,9 +5,9 @@ site_description: >-
   syllabus, written as defensive reference material — not exam recall.
 site_author: Michael Dunne
 # TODO: set these to your real GitHub Pages URL and repo before first deploy
-site_url: https://CHANGE-ME.github.io/foundations-security-assessment/
-repo_url: https://github.com/CHANGE-ME/foundations-security-assessment
-repo_name: foundations-security-assessment
+site_url: https://dunnedee.github.io/Security-Assessment-Foundations/
+repo_url: https://github.com/dunnedee/Security-Assessment-Foundations
+repo_name: Security-Assessment-Foundations
 edit_uri: edit/main/docs/
 
 theme:
@@ -75,7 +75,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/CHANGE-ME
+      link: https://www.linkedin.com/in/mick-dunne-31921b227/
       name: LinkedIn
   generator: false
 
