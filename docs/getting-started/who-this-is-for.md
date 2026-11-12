@@ -3,6 +3,10 @@
 This resource is written for people at the **start** of a security assessment
 career. You'll get the most from it if you recognise yourself in one of these:
 
+## Service leavers moving into cyber
+
+If you're thinking about leaving the forces and moving into cybersecurity, this site should help you get a better understanding of how penetration testing works in the civilian world. From how engagements are planned and delivered to the methodologies and technical skills involved, the aim is to give you a solid foundation to build on and help you work towards your first certification, such as the CREST CPSA or any buckers course you can get for free.
+
 ## Career-changers moving into security
 
 Perhaps you're in IT support, networking, system administration, or software
