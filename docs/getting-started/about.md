@@ -7,7 +7,7 @@ penetration testing and security assessment, organised to follow the public
 **CREST CPSA** syllabus. It's written as reference material: concept,
 relevance, how it's assessed, and how it's remediated.
 
-## How it's framed — and why
+## How it's framed and why
 
 Every page is written from a **defensive, assessment-oriented** point of view.
 You'll read about weaknesses in terms of *how they arise*, *how an assessor
