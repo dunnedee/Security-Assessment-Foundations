@@ -1,4 +1,4 @@
-# Foundations of Security Assessment
+# Foundations of Security Assessments
 
 An open, free learning resource for people getting into penetration testing and
 security assessment. The content is organised around the CREST CPSA syllabus and
